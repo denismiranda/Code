@@ -43,7 +43,7 @@ main{
     gap: 24px ;
 }
 
-section div{
+section  figure{
     margin-top: 20px;
     background-color: #612791    ;
     padding: 25px;
@@ -54,11 +54,11 @@ section div{
 
 
 /* Transition */
-section div:hover {
+section figure:hover {
     transform: scale(1.1);
 }
 
-section div{
+section figure{
     transition: transform 0.4s;
 }
 
